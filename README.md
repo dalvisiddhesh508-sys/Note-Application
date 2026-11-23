@@ -1,19 +1,60 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  Note Application
 
-Currently, two official plugins are available:
+A simple and responsive Notes Application built using React.js and Tailwind CSS. This application allows users to create notes with a title and description, view recent notes, and delete notes easily.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Add notes with a title and description.
+- View recently created notes.
+- Delete notes whenever needed.
+- Clear input fields after adding a note.
+- Clean and responsive user interface.
+- Dark-themed design.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+##  Technologies Used
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- HTML5
+- Vite
 
-## Expanding the ESLint configuration
+##  What I Learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React useState Hook.
+- State management.
+- Handling forms and events.
+- Controlled components.
+- Array methods like map() and filter().
+- Spread operator in JavaScript.
+
+##  Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/dalvisiddhesh508-sys/Note-Application.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd Note-Application
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+# Project Purpose
+
+This project was created as part of my React.js learning journey to practice React Hooks, state management, and dynamic UI development.
